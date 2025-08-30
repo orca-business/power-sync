@@ -1,0 +1,987 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Power Sync Solution</title>
+    <meta name="description" content="">
+    <meta name="author" content="mamunkhan">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- favicon.icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.svg">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-pro.css">
+    <link rel="stylesheet" href="assets/css/spacing.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+
+<body>
+
+
+    <!-- preloader start -->
+    <div id="preloader">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+    <!-- preloader start -->
+
+    <!-- Backtotop start -->
+    <div class="backtotop-wrap cursor-pointer">
+        <svg class="backtotop-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Backtotop end -->
+
+    <!-- Offcanvas area start -->
+    <div class="fix">
+        <div class="offcanvas__area">
+            <div class="offcanvas__wrapper">
+                <div class="offcanvas__content">
+                    <div class="offcanvas__top d-flex justify-content-between align-items-center">
+                        <div class="offcanvas__logo">
+                            <a href="index.html">
+                                <img src="assets/img/logo/logo-white.svg" alt="logo not found">
+                            </a>
+                        </div>
+                        <div class="offcanvas__close">
+                            <button class="offcanvas-close-icon animation--flip">
+                                <span class="offcanvas-m-lines">
+                                    <span class="offcanvas-m-line line--1"></span><span
+                                        class="offcanvas-m-line line--2"></span><span
+                                        class="offcanvas-m-line line--3"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mobile-menu fix"></div>
+                    <div class="offcanvas__social">
+                        <h3 class="offcanvas__title mb-20">Subscribe & Follow</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://pinterest.com/"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                            <li><a href="https://youtube.com/"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas__overlay"></div>
+    <div class="offcanvas__overlay-white"></div>
+    <!-- Offcanvas area start -->
+
+    <!-- Header area start -->
+   <header>
+      <div
+        id="rr-header-sticky"
+        class="rr-header__area rr-header rr-header-2 rr-header-3 hidden-x"
+      >
+        <div class="container-fluid gx-0">
+          <div class="rr-header__wrapper p-relative z-index-1">
+            <div class="rr-header__main">
+              <div class="rr-header__menu__left">
+                <div class="rr-header__logo">
+                  <a href="index.html">
+                    <div class="logo">
+                      <h1>LOGO</h1>
+                      <!-- <img
+                        src="assets/img/logo/logo-white.svg"
+                        alt="logo not found"
+                      /> -->
+                    </div>
+                  </a>
+                </div>
+
+                <div class="rr-header__menu__wrapper d-none d-lg-block">
+                  <div class="main-menu">
+                    <nav id="mobile-menu">
+                      <ul>
+                        <li><a href="index-2.html">Home</a></li>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li><a href="service.html">Services</a></li>
+
+                        <li><a href="contact.html">Contacts</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+
+              <div class="rr-header__menu-toggle">
+                <div class="rr-header__action d-flex align-items-center">
+                  <div class="rr-header__btn d-none d-xxl-block">
+                    <a href="contact.html" class="rr-btn hover-anim"
+                      >Get Started <i class="fa-light fa-arrow-right"></i
+                      ><span class="hover-bg"></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- search__popup  -->
+    <div class="search__popup">
+        <div class="container">
+            <div class="row gx-30">
+                <div class="col-xxl-12">
+                    <div class="search__wrapper">
+                        <div class="search__top d-flex justify-content-between align-items-center">
+                            <div class="search__logo">
+                                <a href="index.html">
+                                    <img src="assets/img/logo/logo-white.svg" alt="icon">
+                                </a>
+                            </div>
+                            <div class="search__close">
+                                <button type="button" class="search__close-btn search-close-btn">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                        <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="search__form">
+                            <form action="#">
+                                <div class="search__input">
+                                    <input class="search-input-field" type="text" placeholder="Type here to search...">
+                                    <span class="search-focus-border"></span>
+                                    <button type="submit">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path
+                                                d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z"
+                                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor"
+                                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header area end -->
+
+    <!-- Body main wrapper start -->
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <main>
+
+                <!-- breadcrumb-section -->
+                <section class="breadcrumb-section__area heading-bg">
+                    <div class="breadcrumb-section__wrapper"
+                        data-background="assets/img/images/rectangle-001.png">
+                        <div class="container">
+                            <div class="breadcrumb-section__content text_center breadcrumb-section__space">
+                                <h3 class="breadcrumb-section__title">About Power Sync</h3>
+                                <ul class="breadcrumb-section__page">
+                                    <li><a href="index.html">Home </a></li>
+                                    <li>/ About Stravise</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="breadcrumb-section__border"></div>
+                    </div>
+                </section>
+
+                <!-- about-section -->
+                <section class="about-section-3__area section-space fade-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-5 col-lg-6">
+                                <div class="about-section-3__content">
+                                    <div class="section-heading__wrap_3">
+                                        <span class="section__subtitle rr-title-anim mb-15"><span></span> About
+                                            us</span>
+                                        <h3 class="section__title rr-title-anim">Empowering business strategic insights
+                                        </h3>
+                                    </div>
+                                    <div class="fade-top">
+                                        <p class="about-section-3__dec opacity_7">Guiding organizations through
+                                            significant changes, such as mergers, acquisitions, restructurings, or a
+                                            cultural
+                                            transformations, to minimize disruptions and maximize success.</p>
+                                    </div>
+                                    <div class="about-section-3__btn fade-top">
+                                        <a href="project.html" class="rr-btn rr-btn_2 hover-anim">View all works <i
+                                                class="fa-light fa-angle-right"></i><span class="hover-bg"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-7 col-lg-6">
+                                <div class="about-section-3__thumb fix text_end">
+                                    <img data-speed="0.9"  src="assets/img/about/about-3_01.png"  alt="image not found">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- counter-section -->
+                <section class="counter-section-3__area section-space-bottom fade-wrapper">
+                    <div class="container">
+                        <div class="counter-section-3__wrapper mb-minus-40">
+                            <div class="counter-section-3__item mb-40 fade-top">
+                                <h2><span class="odometer" data-count="22">0</span></h2>
+                                <p>Years Field Experience</p>
+                            </div>
+                            <div class="counter-section-3__item mb-40 fade-top">
+                                <h2><span class="odometer" data-count="1942">0</span></h2>
+                                <p>Year Established on</p>
+                            </div>
+                            <div class="counter-section-3__item mb-40 fade-top">
+                                <h2><span class="odometer" data-count="746">0</span></h2>
+                                <p>Completed Projects</p>
+                            </div>
+                            <div class="counter-section-3__item mb-40 fade-top">
+                                <h2><span class="odometer" data-count="579">0</span></h2>
+                                <p>Our Trusted Partners</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- service-section -->
+                <section class="service-section-2__area fix fade-wrapper">
+                    <div class="service-section-2__wrapper"
+                        data-background="assets/img/service/service-2-bg-shape-01.png">
+                        <div class="service-section-2__bg"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-4 col-lg-5">
+                                    <div class="service-section-2__thumb fix">
+                                        <img data-speed="0.9" src="assets/img/images/stats.png"
+                                            alt="image not found">
+                                    </div>
+                                </div>
+                                <div class="col-xl-8 col-lg-7">
+                                    <div class="service-section-2__text service-section-2__text_2 section-space-top">
+                                        <div class="section-heading__wrap_2">
+                                            <span class="section__subtitle rr-title-anim">OuR SERVICES</span>
+                                            <h3 class="section__title text_white rr-title-anim">Provide the best
+                                                services, in finance &
+                                                business</h3>
+                                            <p class="text_white_7 mt-20 fade-top">We envision a future where every
+                                                agency operates with
+                                                unparalleled efficiency and effectiveness. Through Stravise
+                                                innovative technology and user-centric design, Terix aims to set the</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-section-2__wrap section-space-bottom">
+                        <div class="container">
+                            <div class="service-section-2__slider">
+                                <div class="swiper service-section-2__active">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="service-section-2__item">
+                                                <div class="service-section-2__icon">
+                                                    <img src="assets/img/icon/service-inner_01.svg"
+                                                        alt="icon not found">
+                                                </div>
+                                                <h3 class="service-section-2__title">Investment Advisory</h3>
+                                                <p class="text_white_7">Professional advice on building your strong
+                                                    investment portfolio
+                                                    based on your goals risk profile.</p>
+                                                <div class="service-section-2__arrow">
+                                                    <a href="service-details.html"><i
+                                                            class="fa-light fa-angle-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="service-section-2__item">
+                                                <div class="service-section-2__icon">
+                                                    <img src="assets/img/icon/service-inner_02.svg"
+                                                        alt="icon not found">
+                                                </div>
+                                                <h3 class="service-section-2__title">Tax Optimization</h3>
+                                                <p class="text_white_7">Personalized investment strategies asset
+                                                    management to assist
+                                                    you & grow your wealth over time.</p>
+                                                <div class="service-section-2__arrow">
+                                                    <a href="service-details.html"><i
+                                                            class="fa-light fa-angle-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="service-section-2__item">
+                                                <div class="service-section-2__icon">
+                                                    <img src="assets/img/icon/service-inner_03.svg"
+                                                        alt="icon not found">
+                                                </div>
+                                                <h3 class="service-section-2__title">Financial Strategy</h3>
+                                                <p class="text_white_7">Support small & medium businesses with cash flow
+                                                    planning,
+                                                    financial forecasting, growth strategy.</p>
+                                                <div class="service-section-2__arrow">
+                                                    <a href="service-details.html"><i
+                                                            class="fa-light fa-angle-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="service-section-2__item">
+                                                <div class="service-section-2__icon">
+                                                    <img src="assets/img/icon/service-inner_04.svg"
+                                                        alt="icon not found">
+                                                </div>
+                                                <h3 class="service-section-2__title">Debt & Credit Advisory</h3>
+                                                <p class="text_white_7">Reduce liabilities and manage credit effectively
+                                                    with customized
+                                                    debt reduction refinancing plans.</p>
+                                                <div class="service-section-2__arrow">
+                                                    <a href="service-details.html"><i
+                                                            class="fa-light fa-angle-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- best-strategy -->
+                <section class="best-strategy__area section-space fix">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="best-strategy__content fade-wrapper">
+                                    <div class="section-heading__wrap">
+                                        <span class="section__subtitle rr-title-anim">Best Strategy</span>
+                                        <h3 class="section__title rr-title-anim">Driving growth through <br> expert
+                                            consultancy</h3>
+                                    </div>
+                                    <div class="fade-top">
+                                        <p class="best-strategy__dec opacity_7">We envision a future where every agency
+                                            operates with
+                                            <br> unparalleled efficiency and effectiveness. Through <br> innovative
+                                            technology and user-centric design,
+                                        </p>
+                                    </div>
+                                    <div class="fade-top">
+                                        <p class="opacity_7">We envision a future where every agency operates with <br>
+                                            unparalleled
+                                            efficiency</p>
+                                    </div>
+                                    <div class="best-strategy__btn fade-top">
+                                        <a href="service.html" class="rr-btn hover-anim">Explore Services <i
+                                                class="fa-light fa-angle-right"></i><span class="hover-bg"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="best-strategy__thumb text_end">
+                                    <img class="img-custom-anim-img" src="assets/img/images/best-strategy-01.jpg"
+                                        alt="image not found">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- brand-section -->
+                <!-- <div class="brand-section-3__area fix heading-bg section-space">
+                    <div class="brand-section-3__wrap">
+                        <h3 class="brand-section-3__title rr-title-anim">9856+ Global brands growth with Stravise
+                            business & Finance
+                            solutions</h3>
+                        <div class="brand-section-3__slide">
+                            <div class="swiper brand-section-3__active">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="brand-section-3__item">
+                                            <img src="assets/img/brands/brand-3_01.png" alt="brand not found">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="brand-section-3__item">
+                                            <img src="assets/img/brands/brand-3_02.png" alt="brand not found">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="brand-section-3__item">
+                                            <img src="assets/img/brands/brand-3_03.png" alt="brand not found">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="brand-section-3__item">
+                                            <img src="assets/img/brands/brand-3_04.png" alt="brand not found">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="brand-section-3__item">
+                                            <img src="assets/img/brands/brand-3_05.png" alt="brand not found">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="brand-section-3__item">
+                                            <img src="assets/img/brands/brand-3_06.png" alt="brand not found">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- about-section -->
+                <section class="about-section-6__area p-relative fade-wrapper white_smoke-2 fix">
+                    <div class="about-section-6__bg-shape">
+                        <img src="assets/img/shapes/about-6-shape.png" alt="shape not found">
+                    </div>
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="about-section-6__thumb p-relative fix">
+                                    <img data-speed="0.9" src="assets/img/images/about-001.png" alt="image not found">
+                                    <!-- <div class="about-section-6__video-wrap">
+                                        <div class="about-section-6__video">
+                                            <a class="popup-video zooming"
+                                                href="https://www.youtube.com/watch?v=y6u9_9Ip6cY">
+                                                <img src="assets/img/icon/play-button-02.svg" alt="icon not found">
+                                            </a>
+                                        </div>
+                                        <h3>SINCE 2004</h3>
+                                        <p>Providing marketing solutions client satisfaction</p>
+                                    </div> -->
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6 ">
+                                <div class="about-section-6__content">
+                                    <div class="section-heading__wrap">
+                                        <span class="section__subtitle rr-title-anim mb-15">Why Stravise</span>
+                                        <h3 class="section__title rr-title-anim">We make most creative <br> digital
+                                            solutions</h3>
+                                    </div>
+                                    <div class="fade-top">
+                                        <p class="about-section-6__dec">We envision a future where every agency operates
+                                            with unparalleled efficiency</p>
+                                    </div>
+                                    <div class="about-section-6__list">
+                                        <ul class="fade-top">
+                                            <li><span>
+                                                    <img src="assets/img/icon/about-6-check.svg" alt="icon not found">
+                                                </span> Most powerful and expert team</li>
+                                            <li><span>
+                                                    <img src="assets/img/icon/about-6-check.svg" alt="icon not found">
+                                                </span> Data-driven insights for consulting</li>
+                                        </ul>
+                                        <ul class="fade-top">
+                                            <li><span>
+                                                    <img src="assets/img/icon/about-6-check.svg" alt="icon not found">
+                                                </span> Innovative strategies for business</li>
+                                            <li><span>
+                                                    <img src="assets/img/icon/about-6-check.svg" alt="icon not found">
+                                                </span> Client-centric approach to marketing</li>
+                                        </ul>
+                                    </div>
+                                    <div class="about-section-6__btn fade-top">
+                                        <a href="contact.html" class="rr-btn hover-anim">Contact Us <i
+                                                class="fa-light fa-angle-right"></i><span class="hover-bg"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- team-section -->
+                <!-- <section class="team-section-3__area section-space fade-wrapper fix">
+                    <div class="container">
+                        <div class="team-section-3__top">
+                            <div class="section-heading__wrap_3">
+                                <span class="section__subtitle rr-title-anim mb-15"><span></span> Our team
+                                    members</span>
+                                <h3 class="section__title rr-title-anim">We’re Stravise Based on <br> Consultancy</h3>
+                            </div>
+                            <div class="team-section-3__btn fade-top">
+                                <a href="team.html" class="rr-btn rr-btn_2 hover-anim">Team Members <i
+                                        class="fa-light fa-angle-right"></i><span class="hover-bg"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row mb-minus-30">
+                            <div class="col-xl-3 col-lg-4 col-md-6">
+                                <div class="team-section-3__wrap p-relative fade-top mb-30">
+                                    <div class="team-section-3__thumb">
+                                        <img src="assets/img/team/team-3_01.jpg" alt="image not found">
+                                        <div class="team-section-3__info heading-bg team-3-bg-shape">
+                                            <div>
+                                                <span class="team-section-3__position text_white_7">CO - FOUNDER</span>
+                                                <h3 class="team-section-3__name"><a href="team-details.html">Nathalie
+                                                        Grossman</a></h3>
+                                                <div class="team-section-3__social">
+                                                    <a href="https://www.facebook.com/"><i
+                                                            class="fa-brands fa-facebook-f"></i></a>
+                                                    <a href="https://www.pinterest.com/"><i
+                                                            class="fa-brands fa-pinterest-p"></i></a>
+                                                    <a href="https://www.linkedin.com/"><i
+                                                            class="fa-brands fa-linkedin-in"></i></a>
+                                                    <a href="https://www.instagram.com/"><i
+                                                            class="fa-brands fa-instagram"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-6">
+                                <div class="team-section-3__wrap p-relative fade-top mb-30">
+                                    <div class="team-section-3__thumb">
+                                        <img src="assets/img/team/team-3_02.jpg" alt="image not found">
+                                        <div class="team-section-3__info heading-bg team-3-bg-shape">
+                                            <div>
+                                                <span class="team-section-3__position text_white_7">CO - FOUNDER</span>
+                                                <h3 class="team-section-3__name"><a href="team-details.html">Leslie
+                                                        Alexander</a></h3>
+                                                <div class="team-section-3__social">
+                                                    <a href="https://www.facebook.com/"><i
+                                                            class="fa-brands fa-facebook-f"></i></a>
+                                                    <a href="https://www.pinterest.com/"><i
+                                                            class="fa-brands fa-pinterest-p"></i></a>
+                                                    <a href="https://www.linkedin.com/"><i
+                                                            class="fa-brands fa-linkedin-in"></i></a>
+                                                    <a href="https://www.instagram.com/"><i
+                                                            class="fa-brands fa-instagram"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-6">
+                                <div class="team-section-3__wrap p-relative fade-top mb-30">
+                                    <div class="team-section-3__thumb">
+                                        <img src="assets/img/team/team-3_05.jpg" alt="image not found">
+                                        <div class="team-section-3__info heading-bg team-3-bg-shape">
+                                            <div>
+                                                <span class="team-section-3__position text_white_7">CO - FOUNDER</span>
+                                                <h3 class="team-section-3__name"><a href="team-details.html">Marvin
+                                                        McKinney</a></h3>
+                                                <div class="team-section-3__social">
+                                                    <a href="https://www.facebook.com/"><i
+                                                            class="fa-brands fa-facebook-f"></i></a>
+                                                    <a href="https://www.pinterest.com/"><i
+                                                            class="fa-brands fa-pinterest-p"></i></a>
+                                                    <a href="https://www.linkedin.com/"><i
+                                                            class="fa-brands fa-linkedin-in"></i></a>
+                                                    <a href="https://www.instagram.com/"><i
+                                                            class="fa-brands fa-instagram"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-6">
+                                <div class="team-section-3__wrap p-relative fade-top mb-30">
+                                    <div class="team-section-3__thumb">
+                                        <img src="assets/img/team/team-3_04.jpg" alt="image not found">
+                                        <div class="team-section-3__info heading-bg team-3-bg-shape">
+                                            <div>
+                                                <span class="team-section-3__position text_white_7">CO - FOUNDER</span>
+                                                <h3 class="team-section-3__name"><a href="team-details.html">Darlene
+                                                        Robertson</a></h3>
+                                                <div class="team-section-3__social">
+                                                    <a href="https://www.facebook.com/"><i
+                                                            class="fa-brands fa-facebook-f"></i></a>
+                                                    <a href="https://www.pinterest.com/"><i
+                                                            class="fa-brands fa-pinterest-p"></i></a>
+                                                    <a href="https://www.linkedin.com/"><i
+                                                            class="fa-brands fa-linkedin-in"></i></a>
+                                                    <a href="https://www.instagram.com/"><i
+                                                            class="fa-brands fa-instagram"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
+
+                <!-- testimonial-section -->
+                <section class="testimonial-section-3__area">
+                    <div class="container">
+                        <div class="testimonial-section-3__wrapper">
+                            <div class="row gx-0 align-items-center">
+                                <div class="col-lg-3 col-md-5">
+                                    <div class="testimonial-section-3__card">
+                                        <span>Average rating</span>
+                                        <div class="testimonial-section-3__review">
+                                            <h2>4.9</h2>
+                                            <div class="star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>    
+                                            </div>
+                                            <p>(30+) Customers <br> reviews</p>
+                                        </div>
+                                        <div class="testimonial-section-3__button">
+                                            <div
+                                                class="testimonial-section-3__arrow testimonial-section-3__arrow__prev">
+                                                <i class="fa-light fa-arrow-left"></i>
+                                            </div>
+                                            <div
+                                                class="testimonial-section-3__arrow testimonial-section-3__arrow__next">
+                                                <i class="fa-light fa-arrow-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-7">
+                                    <div class="testimonial-section-3__slider">
+                                        <div class="swiper testimonial-section-3__active">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <div class="testimonial-section-3__item">
+                                                        <div class="testimonial-section-3__quote">
+                                                            <img src="assets/img/icon/testi-3-quote-01.svg"
+                                                                alt="icon not found">
+                                                        </div>
+                                                        <p class="testimonial-section-3__dec">I was amazed by how
+                                                            intuitive and user-friendly everything felt. It's clear
+                                                            their designers obsess over every pixel,
+                                                            every transition, to create experiences</p>
+                                                        <div class="testimonial-section-3__author">
+                                                            <div class="testimonial-section-3__author__thumb">
+                                                                <img src="assets/img/testimonial/author-3_01.png"
+                                                                    alt="image not found">
+                                                                <div class="icon">
+                                                                    <img src="assets/img/icon/testi-3-icon_01.svg"
+                                                                        alt="icon not found">
+                                                                </div>
+                                                            </div>
+                                                            <div class="testimonial-section-3__author__info">
+                                                                <h3 class="name">David Hussy</h3>
+                                                                <span class="position">CEO at Specter</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="testimonial-section-3__item">
+                                                        <div class="testimonial-section-3__quote">
+                                                            <img src="assets/img/icon/testi-3-quote-01.svg"
+                                                                alt="icon not found">
+                                                        </div>
+                                                        <p class="testimonial-section-3__dec">From the moment I landed
+                                                            on the page, everything just made sense. It’s obvious that
+                                                            the creators prioritized both beauty
+                                                            and usability at every step.</p>
+                                                        <div class="testimonial-section-3__author">
+                                                            <div class="testimonial-section-3__author__thumb">
+                                                                <img src="assets/img/testimonial/author-3_02.png"
+                                                                    alt="image not found">
+                                                                <div class="icon">
+                                                                    <img src="assets/img/icon/testi-3-icon_02.svg"
+                                                                        alt="icon not found">
+                                                                </div>
+                                                            </div>
+                                                            <div class="testimonial-section-3__author__info">
+                                                                <h3 class="name">Nathalie Grossman</h3>
+                                                                <span class="position">CEO at Specter</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-section-3__bottom">
+                        <div class="testimonial-section-3__thumb fix">
+                            <img data-speed="0.9" src="assets/img/images/rectangle-001.png"
+                                alt="image not found">
+                            <div class="testimonial-section-3__content">
+                                <h3 class="testimonial-section-3__title">You need the right direction for your <br>
+                                    business, <span>we’ll help you do that!</span></h3>
+                                <a href="contact.html" class="rr-btn rr-btn_2 hover-anim">Get Started <i
+                                        class="fa-light fa-angle-right"></i><span class="hover-bg"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- blog-section -->
+                <!-- <section class="blog-section-3__area section-space fix fade-wrapper section-space">
+                    <div class="container">
+                        <div class="section-heading__wrap_3 text_center mb-65">
+                            <span class="section__subtitle rr-title-anim mb-15"><span></span> Our latest blogs</span>
+                            <h3 class="section__title rr-title-anim">Insights and strategies for <br> business success
+                            </h3>
+                        </div>
+                        <div class="row mb-minus-40">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="blog-section-3__item mb-40 fade-top">
+                                    <div class="blog-section-3__thumb">
+                                        <a href="blog-details.html">
+                                            <img src="assets/img/blog/blog-3-01.jpg" alt="image not found">
+                                        </a>
+                                    </div>
+                                    <div class="blog-section-3__content">
+                                        <div class="blog-section-3__meta">
+                                            <span>Digital Agnecy</span>
+                                            <span class="date">24 June 2025</span>
+                                        </div>
+                                        <h3 class="blog-section-3__title"><a href="blog-details.html">Strategies for
+                                                improving your profitability</a></h3>
+                                        <div class="blog-section-3__btn">
+                                            <a href="blog-details.html" class="rr-btn hover-anim">Know more<span
+                                                    class="hover-bg"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="blog-section-3__item mb-40 fade-top">
+                                    <div class="blog-section-3__thumb">
+                                        <a href="blog-details.html">
+                                            <img src="assets/img/blog/blog-3-02.jpg" alt="image not found">
+                                        </a>
+                                    </div>
+                                    <div class="blog-section-3__content">
+                                        <div class="blog-section-3__meta">
+                                            <span>Digital Agnecy</span>
+                                            <span class="date">24 June 2025</span>
+                                        </div>
+                                        <h3 class="blog-section-3__title"><a href="blog-details.html">The complex but
+                                                awesome way to growth</a></h3>
+                                        <div class="blog-section-3__btn">
+                                            <a href="blog-details.html" class="rr-btn hover-anim">Know more<span
+                                                    class="hover-bg"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="blog-section-3__item mb-40 fade-top">
+                                    <div class="blog-section-3__thumb">
+                                        <a href="blog-details.html">
+                                            <img src="assets/img/blog/blog-3-03.jpg" alt="image not found">
+                                        </a>
+                                    </div>
+                                    <div class="blog-section-3__content">
+                                        <div class="blog-section-3__meta">
+                                            <span>Digital Agnecy</span>
+                                            <span class="date">24 June 2025</span>
+                                        </div>
+                                        <h3 class="blog-section-3__title"><a href="blog-details.html">Admins and regular
+                                                users boost Stravise on-demand</a></h3>
+                                        <div class="blog-section-3__btn">
+                                            <a href="blog-details.html" class="rr-btn hover-anim">Know more<span
+                                                    class="hover-bg"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
+
+                <!-- cta -->
+                <div class="cta-3__wrap">
+                    <div class="cta-3__text">
+                        <div class="cta-3__left">
+                            <p>Saturday - Thursday : 8:30 am - 10:30 pm</p>
+                        </div>
+                        <div class="cta-3__right">
+                            <a href="tel:132456788">Call for appointment <i class="fa-light fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+            <!-- Footer area start -->
+            <footer>
+          <div class="footer-section-3__area heading-bg fade-wrapper fix">
+            <div class="footer-section-3__wrapper footer-section-3__space">
+              <div class="container">
+                <div class="row mb-minus-50">
+                  <div class="col-lg-4 col-md-6">
+                    <div class="footer-section-3__widget widget-col_1 mb-50">
+                      <div class="footer-section-3__logo">
+                        <a href="index.html">
+                          <h1>LOGO</h1>
+                          <!-- <img
+                            src="assets/img/logo/logo-white.svg"
+                            alt="logo not found"
+                        /> -->
+                        </a>
+                      </div>
+                      <p class="footer-section-3__dec text_white_7">
+                        Join our community! Get exclusive news, tips, and offers
+                        delivered to your inbox. Here are some engaging text
+                      </p>
+                      <div class="footer-section-3__social">
+                        <!-- <a href="https://www.facebook.com/"
+                          ><i class="fa-brands fa-facebook-f"></i
+                        ></a>
+                        <a href="https://www.pinterest.com/"
+                          ><i class="fa-brands fa-pinterest-p"></i
+                        ></a>
+                        <a href="https://www.linkedin.com/"
+                          ><i class="fa-brands fa-linkedin-in"></i
+                        ></a>
+                        <a href="https://www.instagram.com/"
+                          ><i class="fa-brands fa-instagram"></i
+                        ></a> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="footer-section-3__widget widget-col_2 mb-50">
+                      <h3 class="footer-section-3__title">Quick Links</h3>
+                      <div class="footer-section-3__menu">
+                        <ul>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="service.html">Services</a></li>
+                       
+                          <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="col-lg-3 col-md-6">
+                    <div class="footer-section-3__widget widget-col_3 mb-50">
+                      <h3 class="footer-section-3__title">Our Services</h3>
+                      <div class="footer-section-3__menu">
+                        <ul>
+                          <li>
+                            <a href="service.html">Business consultant</a>
+                          </li>
+                          <li>
+                            <a href="about-us.html">Finance consultant</a>
+                          </li>
+                          <li><a href="service.html">Marketing strategy</a></li>
+                          <li>
+                            <a href="about-us.html">Advisor consultant</a>
+                          </li>
+                          <li>
+                            <a href="about-us.html">Insurance consultant</a>
+                          </li>
+                          <li><a href="service.html">HR services</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div> -->
+                  <div class="col-lg-4 col-md-6">
+                    <div class="footer-section-3__widget widget-col_4 mb-50">
+                      <h3 class="footer-section-3__title">Subscribe.</h3>
+                      <p class="text_white_7 mb-15">
+                        Our conversation is just getting started
+                      </p>
+                      <div class="footer-section-3__form">
+                        <form action="#">
+                          <div class="footer-section-3__input">
+                            <input
+                              type="email"
+                              placeholder="Your email address"
+                            />
+                            <div class="footer-section-3__icon">
+                              <img
+                                src="assets/img/icon/footer-3-sms_01.svg"
+                                alt="icon not found"
+                              />
+                            </div>
+                            <div class="footer-section-3__btn">
+                              <button type="submit" class="rr-btn hover-anim">
+                                <i class="fa-light fa-angle-right"></i
+                                ><span class="hover-bg"></span>
+                              </button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 
+            <div class="copyright-3__area">
+              <div class="container">
+                <div class="copyright-3__wrap">
+                  <div class="copyright-3__menu">
+                    <ul>
+                      <li><a href="team.html">Terms and Conditions</a></li>
+                    </ul>
+                  </div>
+                  <div class="copyright-3__text">
+                    <p>
+                      ©1999-2025 All rights reserved by
+                      <a href="index.html">Stravise</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </footer>
+            <!-- Footer area end -->
+        </div>
+    </div>
+    <div id="scroll-percentage"><span id="scroll-percentage-value"></span></div>
+
+
+
+
+    <!-- JS here -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/meanmenu.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/gsap.js"></script>
+    <script src="assets/js/ScrollSmoother.js"></script>
+    <script src="assets/js/ScrollToPlugin.js"></script>
+    <script src="assets/js/ScrollTrigger.js"></script>
+    <script src="assets/js/SplitText.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/nice-select.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/ajax-form.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

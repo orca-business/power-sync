@@ -1,0 +1,680 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Power Sync Solution</title>
+    <meta name="description" content="">
+    <meta name="author" content="mamunkhan">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- favicon.icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.svg">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-pro.css">
+    <link rel="stylesheet" href="assets/css/spacing.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+
+<body>
+
+
+    <!-- preloader start -->
+    <div id="preloader">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+    <!-- preloader start -->
+
+    <!-- Backtotop start -->
+    <div class="backtotop-wrap cursor-pointer">
+        <svg class="backtotop-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Backtotop end -->
+
+    <!-- Offcanvas area start -->
+    <div class="fix">
+        <div class="offcanvas__area">
+            <div class="offcanvas__wrapper">
+                <div class="offcanvas__content">
+                    <div class="offcanvas__top d-flex justify-content-between align-items-center">
+                        <div class="offcanvas__logo">
+                            <a href="index.html">
+                                <img src="assets/img/logo/logo-white.svg" alt="logo not found">
+                            </a>
+                        </div>
+                        <div class="offcanvas__close">
+                            <button class="offcanvas-close-icon animation--flip">
+                                <span class="offcanvas-m-lines">
+                                    <span class="offcanvas-m-line line--1"></span><span
+                                        class="offcanvas-m-line line--2"></span><span
+                                        class="offcanvas-m-line line--3"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mobile-menu fix"></div>
+                    <div class="offcanvas__social">
+                        <h3 class="offcanvas__title mb-20">Subscribe & Follow</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://pinterest.com/"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                            <li><a href="https://youtube.com/"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas__overlay"></div>
+    <div class="offcanvas__overlay-white"></div>
+    <!-- Offcanvas area start -->
+
+    <!-- Header area start -->
+   <header>
+      <div
+        id="rr-header-sticky"
+        class="rr-header__area rr-header rr-header-2 rr-header-3 hidden-x"
+      >
+        <div class="container-fluid gx-0">
+          <div class="rr-header__wrapper p-relative z-index-1">
+            <div class="rr-header__main">
+              <div class="rr-header__menu__left">
+                <div class="rr-header__logo">
+                  <a href="index.html">
+                    <div class="logo">
+                      <h1>LOGO</h1>
+                      <!-- <img
+                        src="assets/img/logo/logo-white.svg"
+                        alt="logo not found"
+                      /> -->
+                    </div>
+                  </a>
+                </div>
+
+                <div class="rr-header__menu__wrapper d-none d-lg-block">
+                  <div class="main-menu">
+                    <nav id="mobile-menu">
+                      <ul>
+                        <li><a href="index-2.html">Home</a></li>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li><a href="service.html">Services</a></li>
+
+                        <li><a href="contact.html">Contacts</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+
+              <div class="rr-header__menu-toggle">
+                <div class="rr-header__action d-flex align-items-center">
+                  <div class="rr-header__btn d-none d-xxl-block">
+                    <a href="contact.html" class="rr-btn hover-anim"
+                      >Get Started <i class="fa-light fa-arrow-right"></i
+                      ><span class="hover-bg"></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- search__popup  -->
+    <div class="search__popup">
+        <div class="container">
+            <div class="row gx-30">
+                <div class="col-xxl-12">
+                    <div class="search__wrapper">
+                        <div class="search__top d-flex justify-content-between align-items-center">
+                            <div class="search__logo">
+                                <a href="index.html">
+                                    <img src="assets/img/logo/logo-white.svg" alt="icon">
+                                </a>
+                            </div>
+                            <div class="search__close">
+                                <button type="button" class="search__close-btn search-close-btn">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                        <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="search__form">
+                            <form action="#">
+                                <div class="search__input">
+                                    <input class="search-input-field" type="text" placeholder="Type here to search...">
+                                    <span class="search-focus-border"></span>
+                                    <button type="submit">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path
+                                                d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z"
+                                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor"
+                                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header area end -->
+
+    <!-- Body main wrapper start -->
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <main>
+
+                <!-- breadcrumb-section -->
+                <section class="breadcrumb-section__area heading-bg">
+                    <div class="breadcrumb-section__wrapper"
+                        data-background="assets/img/images/service-detail.png">
+                        <div class="container">
+                            <div class="breadcrumb-section__content text_center breadcrumb-section__space">
+                                <h3 class="breadcrumb-section__title">Service Details</h3>
+                                <ul class="breadcrumb-section__page">
+                                    <li><a href="index.html">Home </a></li>
+                                    <li>/ Service Details</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="breadcrumb-section__border"></div>
+                    </div>
+                </section>
+
+                <!-- service-details -->
+                <section class="service-details__area section-space fade-wrapper">
+                    <div class="service-details__wrapper">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="service-details__text-left">
+                                        <span class="rr-title-anim">Our Solutions</span>
+                                        <h3 class="service-details__title rr-title-anim">Achieve results with modern
+                                            ideas and strategies</h3>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="service-details__text-right">
+                                        <div class="fade-top">
+                                            <p class="service-details__dec mb-25 mb-md-15 mb-sm-15 mb-xs-15">Guiding
+                                                organizations through significant changes, such as mergers,
+                                                acquisitions, restructurings, or a cultural
+                                                transformations, minimize disruptions and maximize success. Create a
+                                                robust strategy that position your business
+                                                success.</p>
+                                        </div>
+                                        <div class="fade-top">
+                                            <p class="service-details__dec">Our consultants assist you in selecting and
+                                                implementing cutting-edge technologies that enhance productivity,
+                                                improve
+                                                customer experiences, and drive innovation across your specified.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="service-details__video">
+                            <div class="service-details__video-bg p-relative fix">
+                                <img data-speed="0.9" src="assets/img/service/service-details-bg_01.jpg"
+                                    alt="image not found">
+                                <div class="service-details__play">
+                                    <a class="popup-video zooming" href="https://www.youtube.com/watch?v=y6u9_9Ip6cY">
+                                        <img src="assets/img/icon/play-button-02.svg" alt="icon not found">
+                                    </a>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xxl-7 col-lg-6">
+                                    <div class="service-details__info-left">
+                                        <h3 class="service-details__title rr-title-anim mb-20">Service Overview</h3>
+                                        <p class="service-details__dec mb-25 mb-md-15 mb-sm-15 mb-xs-15">Drive impactful
+                                            transformation with tailored strategies that ensure seamless mergers,
+                                            acquisitions, and cultural shifts
+                                            — empowering your organization to thrive amidst change.</p>
+                                        <p class="service-details__dec mb-25 mb-md-15 mb-sm-15 mb-xs-15">Empowering your
+                                            business through strategic change management, ensuring success in mergers,
+                                            transformations, and
+                                            operational pivots.
+                                            Facilitating smooth transitions during mergers, acquisitions, or cultural
+                                            shifts with proven frameworks that ensure
+                                            minimal disruption and maximum impact.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-5 col-lg-6">
+                                    <div class="service-details__info-right">
+                                        <div class="fade-top">
+                                            <p class="service-details__dec">We empower businesses to navigate complexity
+                                                and accelerate growth through expert consulting and actionable strategy.
+                                                Our team brings deep industry experience and insight-driven solutions
+                                                tailored to your unique challenges.</p>
+                                        </div>
+                                        <div class="fade-top">
+                                            <h3 class="service-details__subtitle">Here are some tips for choosing
+                                                Stravise</h3>
+                                        </div>
+                                        <div class="service-details__list fade-top">
+                                            <ul>
+                                                <li><i class="fa-light fa-check"></i> Consulting troubleshooting and
+                                                    modify</li>
+                                                <li><i class="fa-light fa-check"></i> New consultation system update
+                                                </li>
+                                                <li><i class="fa-light fa-check"></i> Consultation code compliance</li>
+                                                <li><i class="fa-light fa-check"></i> Our safety awareness</li>
+                                                <li><i class="fa-light fa-check"></i> Virtually any consultation needs
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="fade-top">
+                                            <h3 class="service-details__subtitle mt-22">Business Management Consulting
+                                            </h3>
+                                        </div>
+                                        <div class="fade-top">
+                                            <p class="service-details__dec">From operational efficiency to
+                                                organizational change, we guide you through critical decisions with
+                                                data-backed advice
+                                                and best practices.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="service-details__gallery">
+                            <div class="service-details__thumb fix">
+                                <img data-speed="0.9" src="assets/img/service/service-details_02.jpg"
+                                    alt="image not found">
+                            </div>
+                            <div class="service-details__thumb fix">
+                                <img data-speed="0.9" src="assets/img/service/service-details_03.jpg"
+                                    alt="image not found">
+                            </div>
+                            <div class="service-details__thumb fix">
+                                <img data-speed="0.9" src="assets/img/service/service-details_04.jpg"
+                                    alt="image not found">
+                            </div>
+                        </div> -->
+
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="service-details__content-left">
+                                        <h3 class="service-details__title mb-15 rr-title-anim">Key Features</h3>
+                                        <div class="fade-top">
+                                            <p class="service-details__dec mb-25">At Stravise, we empower organizations
+                                                to solve complex challenges, unlock growth opportunities, and transform
+                                                strategy
+                                                into results. Our consulting services are tailored to your unique needs,
+                                                combining deep industry insight with innovative
+                                                problem-solving.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="service-details__content-right">
+                                        <div class="service-details__content__list fade-top">
+                                            <ul>
+                                                <li>Business Strategy</li>
+                                                <li>Management Consulting</li>
+                                                <li>Client-Centered Solutions</li>
+                                            </ul>
+                                            <ul>
+                                                <li>Digital Transformation</li>
+                                                <li>Market Intelligence</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- brand-section -->
+                <!-- <div class="brand-section__area white_smoke-2 fix">
+                    <div class="brand-section__wrap">
+                        <div class="container-fluid gx-0">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="brand-section__text rr-title-anim">
+                                        <span>Worked with world-famous <br> brands and partners</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="brand-section__slide">
+                                        <div class="swiper brand-section__active">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <div class="brand-section__item">
+                                                        <img src="assets/img/brands/brand-01.png" alt="brand not found">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="brand-section__item">
+                                                        <img src="assets/img/brands/brand-02.png" alt="brand not found">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="brand-section__item">
+                                                        <img src="assets/img/brands/brand-03.png" alt="brand not found">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="brand-section__item">
+                                                        <img src="assets/img/brands/brand-04.png" alt="brand not found">
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="brand-section__item">
+                                                        <img src="assets/img/brands/brand-03.png" alt="brand not found">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- faq-section-4 -->
+                <section class="faq-section-4__area faq-section-4 section-space fix">
+                    <div class="container">
+                        <div
+                            class="section-heading__wrap_3 section-heading__wrap_4 text_center mb-90 mb-md-40 mb-sm-30 mb-xs-30">
+                            <h3 class="section__title rr-title-anim">Daily performance update <br> frequency & questions
+                            </h3>
+                        </div>
+
+                        <div class="faq-section-4__wrapper inner-faq-section">
+                            <div class="faq-section-4__faq faq-section-4__faq_2">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                <span>01</span> What is the typical timelines for a session?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                    eiusmod tempor
+                                                    incididunt ullamco laboris nisi ut
+                                                    aliquip, Meeting project deadlines is a top priority. We Understand
+                                                    the importance
+                                                    of timely delivery and have
+                                                    established a approach.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                <span>02</span> How do you ensure project deadlines are met?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                    eiusmod tempor
+                                                    incididunt ullamco laboris nisi ut
+                                                    aliquip, Meeting project deadlines is a top priority. We Understand
+                                                    the importance
+                                                    of timely delivery and have
+                                                    established a approach.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                <span>03</span> How do you handle website maintenance and updates?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                    eiusmod tempor
+                                                    incididunt ullamco laboris nisi ut
+                                                    aliquip, Meeting project deadlines is a top priority. We Understand
+                                                    the importance
+                                                    of timely delivery and have
+                                                    established a approach.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse4"
+                                                aria-expanded="false" aria-controls="collapse4">
+                                                <span>04</span> What strategies do you use for digital marketing?
+                                            </button>
+                                        </h2>
+                                        <div id="collapse4" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                    eiusmod tempor
+                                                    incididunt ullamco laboris nisi ut
+                                                    aliquip, Meeting project deadlines is a top priority. We Understand
+                                                    the importance
+                                                    of timely delivery and have
+                                                    established a approach.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- cta -->
+                <div class="cta-3__wrap">
+                    <div class="cta-3__text">
+                        <div class="cta-3__left">
+                            <p>Saturday - Thursday : 8:30 am - 10:30 pm</p>
+                        </div>
+                        <div class="cta-3__right">
+                            <a href="tel:132456788">Call for appointment <i class="fa-light fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+            <!-- Footer area start -->
+            <footer>
+          <div class="footer-section-3__area heading-bg fade-wrapper fix">
+            <div class="footer-section-3__wrapper footer-section-3__space">
+              <div class="container">
+                <div class="row mb-minus-50">
+                  <div class="col-lg-4 col-md-6">
+                    <div class="footer-section-3__widget widget-col_1 mb-50">
+                      <div class="footer-section-3__logo">
+                        <a href="index.html">
+                          <h1>LOGO</h1>
+                          <!-- <img
+                            src="assets/img/logo/logo-white.svg"
+                            alt="logo not found"
+                        /> -->
+                        </a>
+                      </div>
+                      <p class="footer-section-3__dec text_white_7">
+                        Join our community! Get exclusive news, tips, and offers
+                        delivered to your inbox. Here are some engaging text
+                      </p>
+                      <div class="footer-section-3__social">
+                        <!-- <a href="https://www.facebook.com/"
+                          ><i class="fa-brands fa-facebook-f"></i
+                        ></a>
+                        <a href="https://www.pinterest.com/"
+                          ><i class="fa-brands fa-pinterest-p"></i
+                        ></a>
+                        <a href="https://www.linkedin.com/"
+                          ><i class="fa-brands fa-linkedin-in"></i
+                        ></a>
+                        <a href="https://www.instagram.com/"
+                          ><i class="fa-brands fa-instagram"></i
+                        ></a> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="footer-section-3__widget widget-col_2 mb-50">
+                      <h3 class="footer-section-3__title">Quick Links</h3>
+                      <div class="footer-section-3__menu">
+                        <ul>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="service.html">Services</a></li>
+                       
+                          <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="col-lg-3 col-md-6">
+                    <div class="footer-section-3__widget widget-col_3 mb-50">
+                      <h3 class="footer-section-3__title">Our Services</h3>
+                      <div class="footer-section-3__menu">
+                        <ul>
+                          <li>
+                            <a href="service.html">Business consultant</a>
+                          </li>
+                          <li>
+                            <a href="about-us.html">Finance consultant</a>
+                          </li>
+                          <li><a href="service.html">Marketing strategy</a></li>
+                          <li>
+                            <a href="about-us.html">Advisor consultant</a>
+                          </li>
+                          <li>
+                            <a href="about-us.html">Insurance consultant</a>
+                          </li>
+                          <li><a href="service.html">HR services</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div> -->
+                  <div class="col-lg-4 col-md-6">
+                    <div class="footer-section-3__widget widget-col_4 mb-50">
+                      <h3 class="footer-section-3__title">Subscribe.</h3>
+                      <p class="text_white_7 mb-15">
+                        Our conversation is just getting started
+                      </p>
+                      <div class="footer-section-3__form">
+                        <form action="#">
+                          <div class="footer-section-3__input">
+                            <input
+                              type="email"
+                              placeholder="Your email address"
+                            />
+                            <div class="footer-section-3__icon">
+                              <img
+                                src="assets/img/icon/footer-3-sms_01.svg"
+                                alt="icon not found"
+                              />
+                            </div>
+                            <div class="footer-section-3__btn">
+                              <button type="submit" class="rr-btn hover-anim">
+                                <i class="fa-light fa-angle-right"></i
+                                ><span class="hover-bg"></span>
+                              </button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 
+            <div class="copyright-3__area">
+              <div class="container">
+                <div class="copyright-3__wrap">
+                  <div class="copyright-3__menu">
+                    <ul>
+                      <li><a href="team.html">Terms and Conditions</a></li>
+                    </ul>
+                  </div>
+                  <div class="copyright-3__text">
+                    <p>
+                      ©1999-2025 All rights reserved by
+                      <a href="index.html">Stravise</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </footer>
+            <!-- Footer area end -->
+        </div>
+    </div>
+    <div id="scroll-percentage"><span id="scroll-percentage-value"></span></div>
+
+
+
+
+    <!-- JS here -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/meanmenu.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/gsap.js"></script>
+    <script src="assets/js/ScrollSmoother.js"></script>
+    <script src="assets/js/ScrollToPlugin.js"></script>
+    <script src="assets/js/ScrollTrigger.js"></script>
+    <script src="assets/js/SplitText.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/nice-select.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/ajax-form.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
